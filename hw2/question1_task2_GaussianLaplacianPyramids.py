@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-import cv2
 
 def build_gaussian_pyramid(img, levels=5):
     gaussian_pyramid = [img.astype(np.float32)]
